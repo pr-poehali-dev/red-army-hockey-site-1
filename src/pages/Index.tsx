@@ -27,12 +27,13 @@ const Index = () => {
   ];
 
   const players = [
-    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12 },
-    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9 },
-    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3 },
-    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14 },
-    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1 },
-    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15 },
+    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Zetka' },
+    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sharipzyanov' },
+    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=DellCall' },
+    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Kirieshka' },
+    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=KalyWay' },
+    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=MEGADROCHER' },
+    { id: 7, number: 85, name: 'ПА', position: 'Нападающий', goals: 13, assists: 10, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=PA' },
   ];
 
   const news = [
@@ -174,11 +175,13 @@ const Index = () => {
             {players.map((player) => (
               <Card key={player.id} className="hover:scale-105 transition-all bg-gradient-to-br from-card to-card/50 border-2 border-primary/30 hover:border-primary overflow-hidden">
                 <div className="relative h-48 bg-gradient-to-br from-primary/30 to-accent/30 overflow-hidden">
-                  <img 
-                    src="https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/856703eb-83eb-43a9-8ccf-f1f39b385e1b.jpg" 
-                    alt={player.name}
-                    className="w-full h-full object-cover opacity-60"
-                  />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <img 
+                      src={player.avatar} 
+                      alt={player.name}
+                      className="w-32 h-32 rounded-full border-4 border-white shadow-xl"
+                    />
+                  </div>
                   <div className="absolute top-4 left-4">
                     <Badge className="text-3xl font-bebas px-5 py-2 bg-primary text-primary-foreground shadow-lg">
                       {player.number}
