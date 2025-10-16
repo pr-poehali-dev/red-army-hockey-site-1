@@ -139,29 +139,77 @@ const Index = () => {
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Trophy" className="mx-auto mb-2 text-primary" size={32} />
-                <p className="text-4xl font-teko text-primary">15</p>
+                <p className="text-4xl font-teko text-primary">8</p>
                 <p className="text-sm text-muted-foreground">Побед</p>
               </CardContent>
             </Card>
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Target" className="mx-auto mb-2 text-accent" size={32} />
-                <p className="text-4xl font-teko text-accent">48</p>
-                <p className="text-sm text-muted-foreground">Голов</p>
+                <p className="text-4xl font-teko text-accent">23</p>
+                <p className="text-sm text-muted-foreground">Голов забито</p>
               </CardContent>
             </Card>
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
-                <Icon name="Users" className="mx-auto mb-2 text-secondary" size={32} />
-                <p className="text-4xl font-teko text-secondary">25</p>
-                <p className="text-sm text-muted-foreground">Игроков</p>
+                <Icon name="Shield" className="mx-auto mb-2 text-secondary" size={32} />
+                <p className="text-4xl font-teko text-secondary">9</p>
+                <p className="text-sm text-muted-foreground">Голов пропущено</p>
               </CardContent>
             </Card>
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Award" className="mx-auto mb-2 text-primary" size={32} />
-                <p className="text-4xl font-teko text-primary">3</p>
-                <p className="text-sm text-muted-foreground">Чемпионства</p>
+                <p className="text-4xl font-teko text-primary">17</p>
+                <p className="text-sm text-muted-foreground">Очков</p>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="mt-8 max-w-4xl mx-auto">
+            <Card className="bg-card/90 backdrop-blur-sm border-primary/30">
+              <CardHeader>
+                <CardTitle className="text-3xl font-teko text-center text-primary">Детальная статистика сезона</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="grid md:grid-cols-3 gap-6">
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Всего игр</p>
+                    <p className="text-3xl font-teko text-foreground">10</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Побед в основное время</p>
+                    <p className="text-3xl font-teko text-primary">8</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Побед в ОТ</p>
+                    <p className="text-3xl font-teko text-accent">0</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Поражений в ОТ</p>
+                    <p className="text-3xl font-teko text-muted-foreground">1</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Поражений</p>
+                    <p className="text-3xl font-teko text-destructive">1</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Разница шайб</p>
+                    <p className="text-3xl font-teko text-primary">+14</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Побед по буллитам</p>
+                    <p className="text-3xl font-teko text-muted-foreground">0</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Поражений по буллитам</p>
+                    <p className="text-3xl font-teko text-muted-foreground">0</p>
+                  </div>
+                  <div className="text-center p-4 bg-background/50 rounded-lg">
+                    <p className="text-muted-foreground text-sm mb-1">Процент побед</p>
+                    <p className="text-3xl font-teko text-primary">80%</p>
+                  </div>
+                </div>
               </CardContent>
             </Card>
           </div>
