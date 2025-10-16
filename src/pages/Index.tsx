@@ -27,13 +27,13 @@ const Index = () => {
   ];
 
   const players = [
-    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/53a1b1ab-c588-4423-b8e2-abfb07d2f951.jpg' },
-    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/0d5c14ab-28e5-43db-a7f2-6c6e45962561.jpg' },
-    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/01b1bfc4-5f0c-484d-b705-75286ae9b4f4.jpg' },
-    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/e9ef11c8-f4f3-4ce8-bbef-3fcd76f42892.jpg' },
-    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/b0283bb3-78f4-46ae-ac4e-7636de965c12.jpg' },
-    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/7f06b103-0b75-47e9-a403-a4437bc8ef63.jpg' },
-    { id: 7, number: 85, name: 'ПА', position: 'Нападающий', goals: 13, assists: 10, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/eb04ef24-28fa-4f03-846a-4ac17de9fc3a.jpg' },
+    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/356390f4-e297-4b99-a2f1-f3880b2db351.jpg' },
+    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/ccf08029-44fc-442a-b3a2-662bab7da5f0.jpg' },
+    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/5ff7b878-3359-46e2-be1f-6843d2d90533.jpg' },
+    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/dd2c4b2b-2d5c-48e4-b510-3a2f15d66cbd.jpg' },
+    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/8b3082fe-eedc-4492-a700-dc295a5275eb.jpg' },
+    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/47ed4247-bd91-4ee2-8b93-738a4da899da.jpg' },
+    { id: 7, number: 85, name: 'ПА', position: 'Нападающий', goals: 13, assists: 10, avatar: 'https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/f6316eab-0ff3-419c-b13f-05d51245953b.jpg' },
   ];
 
   const news = [
