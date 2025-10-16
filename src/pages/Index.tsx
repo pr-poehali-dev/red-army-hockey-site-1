@@ -170,26 +170,42 @@ const Index = () => {
       <section id="team" className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <h2 className="text-6xl font-bebas text-center mb-12 text-primary">Наша Команда</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {players.map((player) => (
-              <Card key={player.id} className="hover:scale-105 transition-transform">
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-2">
-                    <Badge className="text-2xl font-bebas px-4 py-1">{player.number}</Badge>
-                    <Icon name="User" className="text-muted-foreground" size={24} />
+              <Card key={player.id} className="hover:scale-105 transition-all bg-gradient-to-br from-card to-card/50 border-2 border-primary/30 hover:border-primary overflow-hidden">
+                <div className="relative h-48 bg-gradient-to-br from-primary/30 to-accent/30 overflow-hidden">
+                  <img 
+                    src="https://cdn.poehali.dev/projects/d5f8b1af-a412-40d9-a8a9-3e15db4c8baf/files/856703eb-83eb-43a9-8ccf-f1f39b385e1b.jpg" 
+                    alt={player.name}
+                    className="w-full h-full object-cover opacity-60"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <Badge className="text-3xl font-bebas px-5 py-2 bg-primary text-primary-foreground shadow-lg">
+                      {player.number}
+                    </Badge>
                   </div>
-                  <CardTitle className="font-bebas text-2xl">{player.name}</CardTitle>
-                  <CardDescription>{player.position}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="flex gap-4 text-sm">
-                    <div>
-                      <p className="text-muted-foreground">Голы</p>
-                      <p className="text-2xl font-bebas text-primary">{player.goals}</p>
+                  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/80 to-transparent p-4">
+                    <h3 className="text-3xl font-bebas text-foreground">{player.name}</h3>
+                    <p className="text-accent font-bebas text-lg">{player.position}</p>
+                  </div>
+                </div>
+                <CardContent className="p-6">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="text-center p-3 bg-primary/10 rounded-lg border border-primary/20">
+                      <Icon name="Target" className="mx-auto mb-1 text-primary" size={24} />
+                      <p className="text-3xl font-bebas text-primary">{player.goals}</p>
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide">Голы</p>
                     </div>
-                    <div>
-                      <p className="text-muted-foreground">Передачи</p>
-                      <p className="text-2xl font-bebas text-accent">{player.assists}</p>
+                    <div className="text-center p-3 bg-accent/10 rounded-lg border border-accent/20">
+                      <Icon name="ArrowRightLeft" className="mx-auto mb-1 text-accent" size={24} />
+                      <p className="text-3xl font-bebas text-accent">{player.assists}</p>
+                      <p className="text-xs text-muted-foreground uppercase tracking-wide">Передачи</p>
+                    </div>
+                  </div>
+                  <div className="mt-4 pt-4 border-t border-border">
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="text-muted-foreground">Очки:</span>
+                      <span className="text-2xl font-bebas text-foreground">{player.goals + player.assists}</span>
                     </div>
                   </div>
                 </CardContent>
