@@ -66,22 +66,22 @@ const Index = () => {
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
                 <Icon name="Shield" className="text-primary-foreground" size={24} />
               </div>
-              <h1 className="text-3xl font-bebas tracking-wider text-primary">Красная Армия</h1>
+              <h1 className="text-3xl font-teko tracking-wider text-primary">Красная Армия</h1>
             </div>
             <div className="hidden md:flex gap-6">
-              <Button variant="ghost" onClick={() => scrollToSection('home')} className="font-bebas text-lg">
+              <Button variant="ghost" onClick={() => scrollToSection('home')} className="font-teko text-lg">
                 Главная
               </Button>
-              <Button variant="ghost" onClick={() => scrollToSection('team')} className="font-bebas text-lg">
+              <Button variant="ghost" onClick={() => scrollToSection('team')} className="font-teko text-lg">
                 Команда
               </Button>
-              <Button variant="ghost" onClick={() => scrollToSection('schedule')} className="font-bebas text-lg">
+              <Button variant="ghost" onClick={() => scrollToSection('schedule')} className="font-teko text-lg">
                 Расписание
               </Button>
-              <Button variant="ghost" onClick={() => scrollToSection('results')} className="font-bebas text-lg">
+              <Button variant="ghost" onClick={() => scrollToSection('results')} className="font-teko text-lg">
                 Результаты
               </Button>
-              <Button variant="ghost" onClick={() => scrollToSection('news')} className="font-bebas text-lg">
+              <Button variant="ghost" onClick={() => scrollToSection('news')} className="font-teko text-lg">
                 Новости
               </Button>
             </div>
@@ -118,18 +118,18 @@ const Index = () => {
         </div>
 
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-          <h2 className="text-7xl md:text-9xl font-bebas text-primary mb-4 tracking-wider">
+          <h2 className="text-7xl md:text-9xl font-teko text-primary mb-4 tracking-wider">
             Красная Армия
           </h2>
-          <p className="text-2xl md:text-3xl font-bebas text-foreground mb-8 tracking-wide">
+          <p className="text-2xl md:text-3xl font-teko text-foreground mb-8 tracking-wide">
             Сила. Скорость. Победа.
           </p>
           <div className="flex gap-4 justify-center">
-            <Button size="lg" className="font-bebas text-xl px-8">
+            <Button size="lg" className="font-teko text-xl px-8">
               <Icon name="Calendar" className="mr-2" size={20} />
               Расписание матчей
             </Button>
-            <Button size="lg" variant="outline" className="font-bebas text-xl px-8">
+            <Button size="lg" variant="outline" className="font-teko text-xl px-8">
               <Icon name="Trophy" className="mr-2" size={20} />
               Статистика
             </Button>
@@ -139,28 +139,28 @@ const Index = () => {
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Trophy" className="mx-auto mb-2 text-primary" size={32} />
-                <p className="text-4xl font-bebas text-primary">15</p>
+                <p className="text-4xl font-teko text-primary">15</p>
                 <p className="text-sm text-muted-foreground">Побед</p>
               </CardContent>
             </Card>
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Target" className="mx-auto mb-2 text-accent" size={32} />
-                <p className="text-4xl font-bebas text-accent">48</p>
+                <p className="text-4xl font-teko text-accent">48</p>
                 <p className="text-sm text-muted-foreground">Голов</p>
               </CardContent>
             </Card>
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Users" className="mx-auto mb-2 text-secondary" size={32} />
-                <p className="text-4xl font-bebas text-secondary">25</p>
+                <p className="text-4xl font-teko text-secondary">25</p>
                 <p className="text-sm text-muted-foreground">Игроков</p>
               </CardContent>
             </Card>
             <Card className="bg-card/80 backdrop-blur-sm border-primary/20 hover:border-primary transition-all">
               <CardContent className="pt-6 text-center">
                 <Icon name="Award" className="mx-auto mb-2 text-primary" size={32} />
-                <p className="text-4xl font-bebas text-primary">3</p>
+                <p className="text-4xl font-teko text-primary">3</p>
                 <p className="text-sm text-muted-foreground">Чемпионства</p>
               </CardContent>
             </Card>
@@ -170,7 +170,7 @@ const Index = () => {
 
       <section id="team" className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-6xl font-bebas text-center mb-12 text-primary">Наша Команда</h2>
+          <h2 className="text-6xl font-teko text-center mb-12 text-primary">Наша Команда</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {players.map((player) => (
               <Card key={player.id} className="hover:scale-105 transition-all bg-gradient-to-br from-card to-card/50 border-2 border-primary/30 hover:border-primary overflow-hidden">
@@ -183,32 +183,32 @@ const Index = () => {
                     />
                   </div>
                   <div className="absolute top-4 left-4">
-                    <Badge className="text-3xl font-bebas px-5 py-2 bg-primary text-primary-foreground shadow-lg">
+                    <Badge className="text-3xl font-teko px-5 py-2 bg-primary text-primary-foreground shadow-lg">
                       {player.number}
                     </Badge>
                   </div>
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-background via-background/80 to-transparent p-4">
-                    <h3 className="text-3xl font-bebas text-foreground">{player.name}</h3>
-                    <p className="text-accent font-bebas text-lg">{player.position}</p>
+                    <h3 className="text-3xl font-teko text-foreground">{player.name}</h3>
+                    <p className="text-accent font-teko text-lg">{player.position}</p>
                   </div>
                 </div>
                 <CardContent className="p-6">
                   <div className="grid grid-cols-2 gap-4">
                     <div className="text-center p-3 bg-primary/10 rounded-lg border border-primary/20">
                       <Icon name="Target" className="mx-auto mb-1 text-primary" size={24} />
-                      <p className="text-3xl font-bebas text-primary">{player.goals}</p>
+                      <p className="text-3xl font-teko text-primary">{player.goals}</p>
                       <p className="text-xs text-muted-foreground uppercase tracking-wide">Голы</p>
                     </div>
                     <div className="text-center p-3 bg-accent/10 rounded-lg border border-accent/20">
                       <Icon name="ArrowRightLeft" className="mx-auto mb-1 text-accent" size={24} />
-                      <p className="text-3xl font-bebas text-accent">{player.assists}</p>
+                      <p className="text-3xl font-teko text-accent">{player.assists}</p>
                       <p className="text-xs text-muted-foreground uppercase tracking-wide">Передачи</p>
                     </div>
                   </div>
                   <div className="mt-4 pt-4 border-t border-border">
                     <div className="flex items-center justify-between text-sm">
                       <span className="text-muted-foreground">Очки:</span>
-                      <span className="text-2xl font-bebas text-foreground">{player.goals + player.assists}</span>
+                      <span className="text-2xl font-teko text-foreground">{player.goals + player.assists}</span>
                     </div>
                   </div>
                 </CardContent>
@@ -220,7 +220,7 @@ const Index = () => {
 
       <section id="schedule" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-6xl font-bebas text-center mb-12 text-primary">Расписание</h2>
+          <h2 className="text-6xl font-teko text-center mb-12 text-primary">Расписание</h2>
           <div className="max-w-4xl mx-auto space-y-4">
             {upcomingMatches.map((match) => (
               <Card key={match.id} className="hover:border-primary transition-all">
@@ -231,11 +231,11 @@ const Index = () => {
                         <Icon name="Shield" className="text-primary-foreground" size={32} />
                       </div>
                       <div>
-                        <h3 className="text-2xl font-bebas">VS {match.opponent}</h3>
+                        <h3 className="text-2xl font-teko">VS {match.opponent}</h3>
                         <p className="text-sm text-muted-foreground">{match.date} • {match.time}</p>
                       </div>
                     </div>
-                    <Badge variant={match.location === 'Домашний' ? 'default' : 'secondary'} className="font-bebas text-lg px-4">
+                    <Badge variant={match.location === 'Домашний' ? 'default' : 'secondary'} className="font-teko text-lg px-4">
                       {match.location}
                     </Badge>
                   </div>
@@ -248,7 +248,7 @@ const Index = () => {
 
       <section id="results" className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <h2 className="text-6xl font-bebas text-center mb-12 text-primary">Результаты</h2>
+          <h2 className="text-6xl font-teko text-center mb-12 text-primary">Результаты</h2>
           <div className="max-w-4xl mx-auto space-y-4">
             {results.map((match) => (
               <Card key={match.id} className="hover:border-primary transition-all">
@@ -256,15 +256,15 @@ const Index = () => {
                   <div className="flex items-center justify-between flex-wrap gap-4">
                     <div className="flex items-center gap-6">
                       <div>
-                        <h3 className="text-2xl font-bebas">VS {match.opponent}</h3>
+                        <h3 className="text-2xl font-teko">VS {match.opponent}</h3>
                         <p className="text-sm text-muted-foreground">{match.date}</p>
                       </div>
                     </div>
                     <div className="flex items-center gap-4">
-                      <p className="text-4xl font-bebas text-primary">{match.score}</p>
+                      <p className="text-4xl font-teko text-primary">{match.score}</p>
                       <Badge
                         variant={match.result === 'Победа' ? 'default' : 'secondary'}
-                        className="font-bebas text-lg px-4"
+                        className="font-teko text-lg px-4"
                       >
                         {match.result}
                       </Badge>
@@ -279,7 +279,7 @@ const Index = () => {
 
       <section id="news" className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="text-6xl font-bebas text-center mb-12 text-primary">Новости</h2>
+          <h2 className="text-6xl font-teko text-center mb-12 text-primary">Новости</h2>
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {news.map((article) => (
               <Card key={article.id} className="hover:scale-105 transition-transform">
@@ -287,12 +287,12 @@ const Index = () => {
                   <div className="w-full h-40 bg-primary/20 rounded-md mb-4 flex items-center justify-center">
                     <Icon name="Newspaper" className="text-primary" size={48} />
                   </div>
-                  <CardTitle className="font-bebas text-xl">{article.title}</CardTitle>
+                  <CardTitle className="font-teko text-xl">{article.title}</CardTitle>
                   <CardDescription>{article.date}</CardDescription>
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">{article.excerpt}</p>
-                  <Button variant="link" className="font-bebas p-0">
+                  <Button variant="link" className="font-teko p-0">
                     Читать далее
                     <Icon name="ArrowRight" className="ml-1" size={16} />
                   </Button>
@@ -309,7 +309,7 @@ const Index = () => {
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
               <Icon name="Shield" className="text-primary-foreground" size={20} />
             </div>
-            <h3 className="text-2xl font-bebas text-primary">Красная Армия</h3>
+            <h3 className="text-2xl font-teko text-primary">Красная Армия</h3>
           </div>
           <p className="text-muted-foreground mb-4">Хоккейный клуб • Москва, Россия</p>
           <div className="flex gap-4 justify-center">
