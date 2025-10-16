@@ -27,22 +27,12 @@ const Index = () => {
   ];
 
   const players = [
-    { id: 1, number: 71, name: 'Александр Овечкин', position: 'Левый нападающий', goals: 12, assists: 8 },
-    { id: 2, number: 13, name: 'Павел Дацюк', position: 'Центральный нападающий', goals: 8, assists: 15 },
-    { id: 3, number: 8, name: 'Илья Ковальчук', position: 'Правый нападающий', goals: 10, assists: 11 },
-    { id: 4, number: 1, name: 'Сергей Бобровский', position: 'Вратарь', goals: 0, assists: 2 },
-    { id: 5, number: 91, name: 'Владимир Тарасенко', position: 'Правый нападающий', goals: 9, assists: 12 },
-    { id: 6, number: 47, name: 'Александр Радулов', position: 'Левый нападающий', goals: 7, assists: 14 },
-    { id: 7, number: 27, name: 'Артемий Панарин', position: 'Левый нападающий', goals: 11, assists: 13 },
-    { id: 8, number: 86, name: 'Никита Кучеров', position: 'Правый нападающий', goals: 14, assists: 16 },
-    { id: 9, number: 9, name: 'Иван Проворов', position: 'Защитник', goals: 3, assists: 9 },
-    { id: 10, number: 77, name: 'Виктор Хедман', position: 'Защитник', goals: 2, assists: 11 },
-    { id: 11, number: 65, name: 'Андрей Василевский', position: 'Вратарь', goals: 0, assists: 1 },
-    { id: 12, number: 19, name: 'Евгений Малкин', position: 'Центральный нападающий', goals: 10, assists: 14 },
-    { id: 13, number: 92, name: 'Евгений Кузнецов', position: 'Центральный нападающий', goals: 6, assists: 10 },
-    { id: 14, number: 72, name: 'Артемий Анисимов', position: 'Центральный нападающий', goals: 5, assists: 7 },
-    { id: 15, number: 42, name: 'Андрей Марков', position: 'Защитник', goals: 1, assists: 8 },
-    { id: 16, number: 2, name: 'Андрей Свечников', position: 'Правый нападающий', goals: 8, assists: 9 },
+    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12 },
+    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9 },
+    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3 },
+    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14 },
+    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1 },
+    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15 },
   ];
 
   const news = [
