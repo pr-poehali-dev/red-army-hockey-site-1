@@ -27,13 +27,13 @@ const Index = () => {
   ];
 
   const players = [
-    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Zetka' },
-    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=sharipzyanov' },
-    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=DellCall' },
-    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Kirieshka' },
-    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=KalyWay' },
-    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=MEGADROCHER' },
-    { id: 7, number: 85, name: 'ПА', position: 'Нападающий', goals: 13, assists: 10, avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=PA' },
+    { id: 1, number: 8, name: 'Zetka', position: 'Защитник', goals: 5, assists: 12, avatar: 'https://i.pravatar.cc/300?img=12' },
+    { id: 2, number: 44, name: 'sharipzyanov', position: 'Нападающий', goals: 18, assists: 9, avatar: 'https://i.pravatar.cc/300?img=33' },
+    { id: 3, number: 71, name: 'DellCall', position: 'Вратарь', goals: 0, assists: 3, avatar: 'https://i.pravatar.cc/300?img=52' },
+    { id: 4, number: 12, name: 'Kirieshka', position: 'Универсальный', goals: 11, assists: 14, avatar: 'https://i.pravatar.cc/300?img=68' },
+    { id: 5, number: 68, name: 'Kaly Way', position: 'Вратарь', goals: 0, assists: 1, avatar: 'https://i.pravatar.cc/300?img=15' },
+    { id: 6, number: 67, name: 'MEGADROCHER', position: 'Нападающий', goals: 22, assists: 15, avatar: 'https://i.pravatar.cc/300?img=59' },
+    { id: 7, number: 85, name: 'ПА', position: 'Нападающий', goals: 13, assists: 10, avatar: 'https://i.pravatar.cc/300?img=70' },
   ];
 
   const news = [
