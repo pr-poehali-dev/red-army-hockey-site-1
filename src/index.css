@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 222 47% 11%;
+    --background: 0 0% 6%;
     --foreground: 0 0% 100%;
 
-    --card: 222 47% 15%;
+    --card: 0 60% 18%;
     --card-foreground: 0 0% 100%;
 
-    --popover: 222 47% 15%;
+    --popover: 0 60% 18%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 0 79% 43%;
+    --primary: 0 85% 50%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 217 91% 60%;
+    --secondary: 217 100% 50%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 222 47% 20%;
-    --muted-foreground: 0 0% 70%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 65%;
 
-    --accent: 217 91% 60%;
+    --accent: 217 100% 50%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 222 47% 25%;
-    --input: 222 47% 20%;
-    --ring: 0 79% 43%;
+    --border: 0 30% 30%;
+    --input: 0 0% 15%;
+    --ring: 0 85% 50%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 222 47% 13%;
+    --sidebar-background: 0 0% 8%;
     --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 0 79% 43%;
+    --sidebar-primary: 0 85% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 222 47% 20%;
+    --sidebar-accent: 217 100% 50%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 222 47% 25%;
-    --sidebar-ring: 0 79% 43%;
+    --sidebar-border: 0 30% 30%;
+    --sidebar-ring: 0 85% 50%;
   }
 
   .light {
